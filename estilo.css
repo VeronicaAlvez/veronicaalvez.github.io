@@ -1,0 +1,98 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('imagenes/fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#yo{
+    text-align: left;
+    color: rgb(21, 23, 148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 200%;
+    margin-top: 20px;
+    box-sizing: content-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#yofoto{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.proyectos{
+    text-align: left;
+    color: rgb(114, 10, 10);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 200%;
+    margin-top: 20px;
+    box-sizing: content-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    background-image: radial-gradient(circle, rgb(125, 114, 168), rgb(19, 19, 19));
+    font-family: fantasy, sans-serif, papyrus; 
+    font-size: 600%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: transparent;
+    background-clip: text;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: fantasy, sans-serif, papyrus; 
+    font-size: 150%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contacto{
+    text-align: left;
+    color: rgb(172, 38, 138);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 200%;
+    margin-top: 20px;
+    box-sizing: content-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+}
+a{
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: fantasy, sans-serif, papyrus; 
+    font-size: 100%;
+    margin-top: 5px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer img{
+    padding: 0%;
+    margin: 0%;
+    height: 30px;
+    width: 30px;
+    vertical-align:middle;
+}
